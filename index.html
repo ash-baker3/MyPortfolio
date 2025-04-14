@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Aysha Naushad</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -23,15 +23,16 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm a passionate software developer with a keen interest in building scalable, high performing web and software applications. I love to learn new technologies and apply them to solve real world problems. Let's build something amazing together!</p>
+        <p>Hello! I'm a passionate software developer with a keen interest in building scalable, high performing web and software applications. I love to learn new technologies and apply them to solve real world problems.</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Java, Android, Kotlin, Python</li>
-            <li>HTML, CSS, JavaScript, XML, Bootstrap</li>
-            <li>MS SQL, MySQL, NoSQL</li>
+            <li>Java, Android, JavaScript, C, Python</li>
+            <li>HTML, CSS, XML, JSON Bootstrap, JQuery</li>
+            <li>Node.js, Express.js</li>
+            <li>MS SQL, MySQL, NoSQL, Firebase</li>
             <li>REST, SOAP, AIDL</li>
             <li>MVP, MVC, MVVM</li>
             <li>React, Angular</li>
@@ -46,25 +47,72 @@
 
     <section id="portfolio">
         <h2>Portfolio Projects</h2>
-        <div class="project">
-            <h3><a href="https://ash-baker3.github.io/MyWebsite/" target="_blank">Personal Website</a></h3>
-            <p>A modern, fully responsive personal website designed using HTML and CSS to showcase my front-end development skills. It features an "About Me" section, contact details, and a clean, user-friendly interface.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://serenity-u.online/" target="_blank">Capstone Project - Serenity-U</a></h3>
-            <p>An Android application designed to track anxiety levels based on user responses to a questionnaire. The app utilizes Flutter and an Artificial Neural Network (ANN) model to analyze responses and provide personalized recommendations. Firebase is used for secure data storage.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://ash-baker3.github.io/Flappy-Bird/" target="_blank">Flappy Bird</a></h3>
-            <p>Developed a Flappy Bird clone for PC using Phaser, a game development framework based on HTML5 and JavaScript.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://ash-baker3.github.io/Pomodoro-Application/" target="_blank">Pomodoro Application</a></h3>
-            <p>Developed a dynamic Pomodoro timer application using HTML, CSS, and JavaScript to enhance time management by breaking work into focused 25-minute intervals, followed by short breaks. This simple yet effective tool promotes mental agility, boosts motivation, and helps prevent burnout by applying the Pomodoro Technique.</p>
-        </div>
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>This very portfolio website! Built using HTML and CSS to professionally showcase my skills, projects, and contact information.</p>
+        <div class="projects-grid">
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Personal Website</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/ash-baker3/MyWebsite"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub"/></a>
+                        <a href="https://ash-baker3.github.io/MyWebsite/"><img src="./images/application.png" alt="App" class="icon" title="Application" /></a>
+                    </div>
+                </div>
+                <p>A modern, fully responsive personal website designed using HTML and CSS to showcase my front-end development skills.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>ChatGPT Chatbot</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/ash-baker3/Chatbot"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub" /></a>
+                    </div>
+                </div>
+                <p>Terminal-based ChatGPT chatbot implemented using Node.js, powered by the OpenAI's GPT-3.5 Turbo model.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Discord Memebot</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/ash-baker3/Discord-Memebot"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub" /></a>
+                    </div>
+                </div>
+                <p>Fun and interactive Discord bot built using Python that fetches random memes from a public JSON API and shares them directly in the discord server with a simple command like #meme.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Flappy Bird</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/ash-baker3/Flappy-Bird"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub" /></a>
+                        <a href="https://ash-baker3.github.io/Flappy-Bird/"><img src="./images/application.png" alt="App" class="icon" title="Application" /></a>
+                    </div>
+                </div>
+                <p>Flappy Bird clone using Phaser framework based on HTML5 and JavaScript.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Pomodoro</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/ash-baker3/Pomodoro-Application"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub" /></a>
+                        <a href="https://ash-baker3.github.io/Pomodoro-Application/"><img src="./images/application.png" alt="App" class="icon" title="Application" /></a>
+                    </div>
+                </div>
+                <p>A dynamic Pomodoro timer app using HTML, CSS, and JavaScript to promote time management with short breaks.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Serenity-U</h3>
+                    <div class="project-icons">
+                        <a href="https://github.com/Ash-cn3/serenity-u-final"><img src="./images/github.png" alt="GitHub" class="icon" title="GitHub" /></a>
+                        <a href="https://serenity-u.online/"><img src="./images/application.png" alt="App" class="icon" title="Application"/></a>
+                    </div>
+                </div>
+                <p>Android application using Flutter and ANN to track anxiety levels and provide wellness recommendations.</p>
+            </div>
+
         </div>
     </section>
 
@@ -74,7 +122,7 @@
     </section>
 
     <footer>
-        <p> © Aysha Naushad</p>
+        <p>© Aysha Naushad</p>
     </footer>
 
 </body>
